@@ -2,6 +2,10 @@
 
 Unfollowed is a Python automation tool that logs into Instagram, retrieves your followers and following lists, and identifies users who don't follow you back and those you don't follow back. It also supports an allowlist to exclude specific accounts from the analysis.
 
+## Known Issues
+- Occasionally will miss a few followers/followings which can lead to inaccurate results (i.e. it will say that you don't follow an account back when you really do).
+
+
 ## Installation
 
 ### Prerequisites
