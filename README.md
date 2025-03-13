@@ -10,20 +10,20 @@ Unfollowed is a Python automation tool that logs into Instagram, retrieves your 
 
 ### Setup
 1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/yourusername/unfollowed.git
-   cd unfollowed
-   ```
+ ```sh
+ git clone https://github.com/yourusername/unfollowed.git
+ cd unfollowed
+ ```
 2. **Create a Virtual Environment**
-   ```sh
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
-   ```
+ ```sh
+ python -m venv .venv
+ source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
+ ```
 3. **Install Dependencies**
-   ```sh
-   pip install click
-   pip install selenium
-   ```
+ ```sh
+ pip install click
+ pip install selenium
+ ```
 
 ## Usage
 
@@ -36,9 +36,9 @@ password: bar
 ```
 
 2. Execute the bot:
-   ```sh
-   python -m main.py -c config.ini -p john_doe -o output.txt
-   ```
+```sh
+python -m main.py -c config.ini -p john_doe -o output.txt
+```
 
 The bot will:
 - Open Instagram.
